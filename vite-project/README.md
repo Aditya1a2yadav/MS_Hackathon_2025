@@ -1,12 +1,38 @@
-# React + Vite
+# MS-Hackathon-2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+=====================
 
-Currently, two official plugins are available:
+SocialGenAI is a web application built for the MS Hackathon 2025. The project aims to provide a platform for users to generate social media posts using AI-powered tools.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Architecture and Technical Stack
+=====================================
 
-## Expanding the ESLint configuration
+The project is built using a modern web development stack, including:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Frontend: React, styled-components, and Tailwind CSS
+* Backend: None (client-side only)
+* APIs: OpenAI (GPT-4 and DALL-E) for AI-powered post generation
+* Deployment: Vite for development and production builds
+
+## Features and Functionalities
+=============================
+
+The application includes the following features:
+
+* **Post Generation**: Users can generate social media posts for various platforms (Twitter, Instagram, LinkedIn, and Facebook) using AI-powered tools.
+* **Auth Forms**: Users can authenticate using a popup form.
+* **Dashboard**: A dashboard page displays generated posts and allows users to interact with them.
+* **Loading Animation**: A loading animation is displayed while the application is generating posts.
+
+## Getting Started
+=====================
+
+To run the project locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/Aditya1a2yadav/MS-Hackathon-2025.git`
+2. Install dependencies: `npm install` or `yarn install`
+3. Start the development server: `npm run dev` or `yarn dev`
+4. Open the application in your web browser: `http://localhost:3000`
+
+Note: You'll need to replace the `your-username` placeholder with your actual GitHub username.
