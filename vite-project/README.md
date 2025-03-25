@@ -11,7 +11,6 @@ SocialGenAI is a web application built for the MS Hackathon 2025. The project ai
 The project is built using a modern web development stack, including:
 
 * Frontend: React, styled-components, and Tailwind CSS
-* Backend: None (client-side only)
 * APIs: OpenAI (GPT-4 and DALL-E) for AI-powered post generation
 * Deployment: Vite for development and production builds
 
