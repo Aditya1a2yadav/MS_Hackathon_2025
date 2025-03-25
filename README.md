@@ -32,6 +32,6 @@ To run the project locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/Aditya1a2yadav/MS-Hackathon-2025.git`
 2. Install dependencies: `npm install` or `yarn install`
 3. Start the development server: `npm run dev` or `yarn dev`
-4. Open the application in your web browser: `http://localhost:3000`
+4. Open the application in your web browser: `http://localhost:5173`
 
 Note: You'll need to replace the `your-username` placeholder with your actual GitHub username.
