@@ -2,11 +2,13 @@
 // --- API Keys and Endpoints (IMPORTANT: Use environment variables in production!) ---
 
 // --- End API Keys ---
-const AZURE_GPT4_API_KEY = "Fj1KPt7grC6bAkNja7daZUstpP8wZTXsV6Zjr2FOxkO7wsBQ5SzQJQQJ99BCACHYHv6XJ3w3AAAAACOGL3Xg";
-const GPT4_ENDPOINT = 'https://ai-aihackthonhub282549186415.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2025-01-01-preview';
-const DALLE_ENDPOINT = 'https://chrlin-openai02.openai.azure.com/openai/deployments/dall-e-3/images/generations?api-version=2024-02-01';
+const DALLE_ENDPOINT = import.meta.env.VITE_DALLE_ENDPOINT;
+const AZURE_GPT4_API_KEY = import.meta.env.VITE_AZURE_GPT4_API_KEY;
+const GPT4_ENDPOINT = import.meta.env.VITE_GPT4_ENDPOINT;
 // For DALLE, we use the provided API key directly:
-const AZURE_DALLE_API_KEY = '8FWd2D4me50VFU19E9jKXo1ABOO1M7Cr6c5GhFvP6sst2n3soQKuJQQJ99BCACYeBjFXJ3w3AAABACOGy8NL';
+const AZURE_DALLE_API_KEY = import.meta.env.VITE_AZURE_DALLE_API_KEY;
+console.log(AZURE_GPT4_API_KEY, GPT4_ENDPOINT, DALLE_ENDPOINT, AZURE_DALLE_API_KEY);
+
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import LoadingAnimation from '../components/LoadingAnimation'; // Adjust path if needed

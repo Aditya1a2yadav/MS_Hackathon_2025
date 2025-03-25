@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Vite
+.vite/
+
+# React build files
+*.log
+*.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# ESLint cache
+.eslintcache
