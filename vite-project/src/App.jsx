@@ -23,11 +23,11 @@ const App = () => {
   const renderPage = () => {
     switch(page) {
       case 'home':
-        return <Home setPage={setPage}/>;
+        return <Home setPage={setPage} currentPage={page}/>;
       case 'dashboard':
         return <Dashboard user={user} />;
       default:
-        return <Home setPage={setPage}/>;
+        return <Home setPage={setPage} currentPage={page}/>;
     }
   };
 
